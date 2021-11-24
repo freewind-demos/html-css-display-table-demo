@@ -1,11 +1,18 @@
-#main {
-    width: 600px;
-    text-align: center;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 150px);
+.table {
+  width: 600px;
+  margin: 0 auto;
+  display: table;
+  border-collapse: collapse;
 }
 
-.item {
-    border: 1px solid green;
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  border: 1px solid green;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
 }
